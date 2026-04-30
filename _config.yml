@@ -12,6 +12,22 @@ repository: "PeterCheng0906/PeterCheng.github.io"
 include:
   - _pages
 
+# Don't let GitHub Pages auto-promote README.md to the site homepage
+readme_index:
+  enabled: false
+
+# Keep these files in the repo but out of the rendered site
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - Dockerfile
+  - docker-compose.yaml
+  - package.json
+  - vendor
+
 # ---- Author Info ----
 author:
   name: "Peter Cheng"
@@ -22,7 +38,7 @@ author:
   employer: "Johns Hopkins · Stanford"
   email: "cyf0906@stanford.edu"
   github: "PeterCheng0906"
-  linkedin: "Peter Cheng"
+  linkedin: "peter-cheng-a2436a331"
 
 # ---- Navigation Menu ----
 nav:
