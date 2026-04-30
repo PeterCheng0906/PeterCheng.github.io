@@ -3,10 +3,14 @@ locale: "en-US"
 title: "Peter Cheng"
 email: "cyf0906@stanford.edu"
 description: >
-  Stanford Graduate Student | Data Scientist | AI Researcher | Bridging Humanities & Machine Learning
+  Data scientist · MS Data Science @ Johns Hopkins · MA Computational NLP @ Stanford · Applied ML, fraud detection, credit risk, NLP research
 url: "https://petercheng0906.github.io"
 baseurl: "/PeterCheng.github.io"
 repository: "PeterCheng0906/PeterCheng.github.io"
+
+# Tell Jekyll to process the _pages folder (academicpages requires this)
+include:
+  - _pages
 
 # ---- Author Info ----
 author:
@@ -15,7 +19,7 @@ author:
   avatar: "profile.jpg"
   bio: "Data scientist · MS Data Science @ Johns Hopkins · MA Computational NLP @ Stanford. Applied ML for fraud, credit risk, and NLP research."
   location: "Bay Area, CA"
-  employer: "Stanford University"
+  employer: "Johns Hopkins · Stanford"
   email: "cyf0906@stanford.edu"
   github: "PeterCheng0906"
   linkedin: "Peter Cheng"
