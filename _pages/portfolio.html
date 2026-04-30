@@ -1,0 +1,15 @@
+---
+layout: archive
+title: "Projects"
+permalink: /portfolio/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>A selection of my data science, machine learning, and computational humanities work — applied ML pipelines, NLP research, analytics, and AI systems. Featured projects have GitHub repositories where the code is public.</p>
+
+{% assign sorted_portfolio = site.portfolio | sort: 'date' | reverse %}
+{% for post in sorted_portfolio %}
+  {% include archive-single.html %}
+{% endfor %}

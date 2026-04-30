@@ -1,0 +1,95 @@
+# ---- Site Settings ----
+locale: "en-US"
+title: "Peter Cheng"
+email: "cyf0906@stanford.edu"
+description: >
+  Stanford Graduate Student | Data Scientist | AI Researcher | Bridging Humanities & Machine Learning
+url: "https://PeterCheng.github.io"  
+baseurl: ""
+repository: "PeterCheng0906/PeterCheng.github.io"
+
+# ---- Author Info ----
+author:
+  name: "Peter Cheng"
+  pronouns: "he/him"
+  avatar: "profile.jpg"
+  bio: "Graduate student at Stanford (German Studies + Data Science). Passionate about solving real-world problems through data science, with experience in fraud detection and credit line assignment. I’m especially interested in building interpretable models and bridging statistical analysis with practical decision-making."
+  location: "Bay Area, CA"
+  employer: "Stanford University"
+  email: "cyf0906@stanford.edu"
+  github: "PeterCheng0906"
+  linkedin: "Peter Cheng"
+
+# ---- Navigation Menu ----
+nav:
+  - title: "About"
+    url: /about/
+  - title: "CV"
+    url: /cv/
+  - title: "Projects"
+    url: /portfolio/
+  - title: "Blog"
+    url: /blog/
+  - title: "Contact"
+    url: /contact/
+
+# ---- Collections ----
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
+# ---- Defaults ----
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+
+# ---- Plugins ----
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+# ---- Additional Settings ----
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: "\n\n"
+encoding: "utf-8"
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+timezone: America/Los_Angeles
