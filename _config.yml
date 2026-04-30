@@ -32,7 +32,7 @@ exclude:
 author:
   name: "Peter Cheng"
   pronouns: "he/him"
-  avatar: "profile.jpg"
+  avatar: "profile.png"
   bio: "Data scientist · MS Data Science @ Johns Hopkins · MA Computational NLP @ Stanford. Applied ML for fraud, credit risk, and NLP research."
   location: "Bay Area, CA"
   employer: "Johns Hopkins · Stanford"
